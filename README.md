@@ -9,3 +9,10 @@ The friends beta is free: unlimited local transcription and all twelve original 
 The current build requires Apple silicon, macOS 26.6 or later and Final Cut Pro 12.4 or later, matching the public Final Cut runtime used to build it. Quit Final Cut before installing or updating. The optional Timeline Helper needs user-granted Accessibility permission for automatic title separation. Fonts use those installed on each Mac. Transcriptions can need correction.
 
 The CaptionForge app includes **Check for Updates…**. Released updates will replace the editor, extension, helper and managed title templates while preserving local projects, settings and downloaded models. The update feed remains empty until a signed, notarized installer is available.
+## Latest local test build
+
+CaptionForge1.0.3 adds named appearance presets in My Presets, including font/face, colors, size, Y, wrapping width, line count, caption limits and animation/formatting settings. Save, apply, rename, delete and persistence after reopening were tested in the installed editor. Presets retain current media, corrected timed words and project format. Custom template-preview wording updates the cards independently.
+
+Optional local natural grouping uses one-to-three-word portrait captions, longer configurable landscape phrases and isolated long words. Preview and export preserve the chosen font size; ten-percent frame margins are checked and oversized text requires adjustment before export. Linguistic hints are heuristic; they cannot guarantee perfect phrasing or speech recognition. The preview has separate play/pause and selected-caption replay controls.
+
+All80 core tests and Apple-silicon Debug/signed Release builds pass. The installed GitHub update check succeeds; official update signing verifies and rejects a modified package. Actual update installation/relaunch, clean installation on another Mac and repeatable timeline dragging remain acceptance gates. No release binary has been uploaded.
